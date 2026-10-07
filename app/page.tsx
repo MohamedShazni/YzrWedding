@@ -53,6 +53,9 @@ export default function Home() {
                 Mr and Mrs <strong>Cader Ali</strong> request the presence and
                 blessings of
               </p>
+              <div className="text-3xl italic font-serif text-green-950 mt-3 mb-3">
+                <p>Sinduja</p>
+              </div>
               <p>At the waleema of their beloved son</p>
             </div>
             <h1>Yazar</h1>
