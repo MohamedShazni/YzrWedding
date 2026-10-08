@@ -69,7 +69,7 @@ export default function Home() {
             <div className="mt-6.25 grid gap-1.25 font-[Georgia,'Times_New_Roman',serif] text-[13px] text-[#7a7d70] max-[620px]:mt-5.25 [&>p]:m-0 [&_strong]:font-normal [&_strong]:text-[#26372d]">
               <p>Request the presence and blessings of</p>
               <div className="my-3 font-serif text-3xl italic text-green-950">
-                <p className="m-0">Alaudeens &amp; 8 Thatkoorihal</p>
+                <p className="m-0">Alaudeen &amp; 8 Tharkoorihal</p>
               </div>
               <p>At the waleema of their beloved son</p>
             </div>
