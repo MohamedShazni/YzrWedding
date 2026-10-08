@@ -67,10 +67,7 @@ export default function Home() {
 
           <div className="flex flex-col items-center" id="invitation-title">
             <div className="mt-6.25 grid gap-1.25 font-[Georgia,'Times_New_Roman',serif] text-[13px] text-[#7a7d70] max-[620px]:mt-5.25 [&>p]:m-0 [&_strong]:font-normal [&_strong]:text-[#26372d]">
-              <p>
-                Mr and Mrs <strong>Cader Ali</strong> request the presence and
-                blessings of
-              </p>
+              <p>Request the presence and blessings of</p>
               <div className="my-3 font-serif text-3xl italic text-green-950">
                 <p className="m-0">Alaudeens &amp; 8 Thatkoorihal</p>
               </div>
