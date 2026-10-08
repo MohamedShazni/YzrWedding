@@ -30,7 +30,7 @@ export default function Home() {
           href="#home"
           aria-label="Aaysha and Yazar"
         >
-          A <span className="italic text-[#a68c5a]">&</span> Y
+          Y <span className="italic text-[#a68c5a]">&</span> A
         </a>
         <p className="m-0 text-[10px] uppercase tracking-[0.17em] text-[#7a7d70] max-[620px]:hidden">
           A celebration of love
