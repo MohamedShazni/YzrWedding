@@ -230,7 +230,7 @@ export default function Home() {
       <footer className="flex min-h-24.75 items-center justify-between">
         <FlowerMark />
         <div className="flex items-center gap-1.5">
-          <p className="font-[Georgia,'Times_New_Roman',serif] text-[8px] italic text-[#26372d]">
+          <p className="font-[Georgia,'Times_New_Roman',serif] text-[8px] md:text-[10px] italic text-[#26372d]">
             Best compliments from Mohomed Faslan{" "}
             <span className="text-[#a68c5a]">&</span> Kisnath S.A Marikkar
           </p>
