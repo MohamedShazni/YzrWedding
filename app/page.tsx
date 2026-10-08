@@ -1,3 +1,5 @@
+import { MapPinIcon, Clock } from "lucide-react";
+
 const venueSearch = encodeURIComponent("Hotel Sea Green Kalpitiya, Sri Lanka");
 
 function FlowerMark() {
@@ -164,13 +166,18 @@ export default function Home() {
 
         <div className="mx-auto mt-11 grid max-w-230 grid-cols-[1fr_1fr_auto] items-center gap-9 max-[900px]:max-w-162.5 max-[900px]:grid-cols-2 max-[900px]:gap-y-7.5 max-[620px]:mt-8.5 max-[620px]:w-fit max-[620px]:grid-cols-1 max-[620px]:gap-6.5">
           <article className="flex items-start gap-4.25">
-            <span className="pt-0.75 font-[Georgia,'Times_New_Roman',serif] text-xs italic text-[#a68c5a]">
+            <span className="font-[Georgia,'Times_New_Roman',serif] text-xs italic text-[#a68c5a]">
               01
             </span>
             <div>
-              <h3 className="mb-2.5 mt-0 text-[9px] font-semibold uppercase tracking-[0.2em] text-[#697356]">
-                When
-              </h3>
+              <div className="mb-2.5 flex items-center gap-3">
+                <h3 className="mt-0.5 text-[9px] font-semibold uppercase tracking-[0.2em] text-[#697356]">
+                  When
+                </h3>
+                <span>
+                  <Clock className="h-4 w-4 text-[#a68c5a]" />
+                </span>
+              </div>
               <p className="m-0 font-[Georgia,'Times_New_Roman',serif] text-[15px] text-[#26372d]">
                 Saturday, 26 December 2026
               </p>
@@ -181,13 +188,18 @@ export default function Home() {
           </article>
 
           <article className="flex items-start gap-4.25">
-            <span className="pt-0.75 font-[Georgia,'Times_New_Roman',serif] text-xs italic text-[#a68c5a]">
+            <span className=" font-[Georgia,'Times_New_Roman',serif] text-xs italic text-[#a68c5a]">
               02
             </span>
             <div>
-              <h3 className="mb-2.5 mt-0 text-[9px] font-semibold uppercase tracking-[0.2em] text-[#697356]">
-                Where
-              </h3>
+              <div className="mb-2.5 flex items-center gap-3">
+                <h3 className="mt-0.5 text-[9px] font-semibold uppercase tracking-[0.2em] text-[#697356]">
+                  Where
+                </h3>
+                <span>
+                  <MapPinIcon className="h-4 w-4 text-[#a68c5a]" />
+                </span>
+              </div>
               <p className="m-0 font-[Georgia,'Times_New_Roman',serif] text-[15px] text-[#26372d]">
                 Hotel Sea Green Kalpitiya, Sri Lanka
               </p>
